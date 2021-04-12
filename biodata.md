@@ -5,7 +5,7 @@ I've been working with technology since 2017, and during this time I worked with
 
 What has enchanted me the most is working with data projects seen that today we have a huge amount of data everywhere and by using the right technologies, we can get answers to solve big problems, impacting all society and making the world a better place.
 
-Take a look in some data projects which have already been making the world a better place: <strong><a href="https://www.microsoft.com/en-us/ai/ai-for-good">AI for Good</a></strong>.
+
 
 <br>
 
