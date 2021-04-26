@@ -44,9 +44,9 @@
   <details>
   <summary> Implementation </summary>
   
-In this script, first of all I copied the spreadsheet link to csv link through web publish option.
-After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command.
-Then I got the required output from awk command.
+In this script, first of all I went to publish to the web option and copied the csv link to the spreadsheet
+then I used wget command to download the link of the spreadsheet and rename the download file with the mv command.
+after that i used awk command to get the required output.
   
   </details>
   
