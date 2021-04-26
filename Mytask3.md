@@ -3,9 +3,13 @@
 
 <details>
   <summary> Summary of Task </summary>
+  
      Write a script in Shell.
+     
      This script has been used to download 2 google sheets. 
+     
      Both of those Google sheets will have the formate csv file. 
+     
      Only the name, Average and Sum columns and their values should be printed. 
   
 </details>
