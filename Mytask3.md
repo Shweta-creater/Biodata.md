@@ -1,8 +1,8 @@
 
 <h2 align="center">Task-3</h2>
 
-<details>
-  <summary> Summary of Task </summary>
+
+ # Summary of Task
   
     1- Write a script in Shell.
      
