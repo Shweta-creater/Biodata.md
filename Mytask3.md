@@ -16,15 +16,14 @@
 
 <details>
 <summary> INDEX </summary>
-  <ul>
-    <br>
-    <li> Test cases</li>
-    <li> Implementation </li>
-    <li> Script </li>
-    <li> Output of script </li>
-    <li> Conclusion  </li>
-    <li> download files links </li>
-  </ul>
+  
+   1- Test cases
+   2- Implementation 
+   3- Script 
+   4- Output of script 
+   5- Conclusion 
+   6- download files links 
+  
   </details>
 
 <details>
