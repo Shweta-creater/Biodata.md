@@ -57,24 +57,34 @@ after that i used awk command to get the required output.
   <details>
   <summary> Script </summary>
  #!/bin/bash
+ 
 ECHO=/usr/bin/echo
+
 WGET=/usr/bin/wget
+
 MV=/usr/bin/mv
+
 RM=/usr/bin/rm
+
 AWK=/usr/bin/awk
+
 #################################################################################################################################
 #Script Name : script task
+
 #Discription : 1-This script has been used to download 2 google spread sheets.
 #            : 2-Both of those Google sheets will have the format csv file.
-#	     : 3-All the columns of the entire csv file will not be printed in the output.
+#	           : 3-All the columns of the entire csv file will not be printed in the output.
 #!/bin/bash
-#	     : 4-Only the name, Average and sum columns and their values should be printed
+#	           : 4-Only the name, Average and sum columns and their values should be printed
 #Author      : Shweta Mishra
 #Date        : 20-04-2021
 #################################################################################################################################
 #This script for Self & other evaluation sheet-1
+
 # Here rm command is used if csv file already exits then delete it.
+
 # wget command is used to download the csv file .
+
 # echo command is used to print  the message.
 
 # if file already exits then delete it
