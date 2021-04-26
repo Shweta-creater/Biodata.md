@@ -126,7 +126,8 @@ NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my25.csv
   </details>
   
   <details>
-  <summary> Output of script </summary>
+ <summary> Output of script </summary>
+ 
  
   </details>
   
