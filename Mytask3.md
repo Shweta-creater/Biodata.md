@@ -32,7 +32,7 @@
   
 | **SR-No.** | **TEST CASE** | **COMMAND** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
 | --- | --- | --- | --- | --- | --- | ---- |  
-| **1** | Spreadsheet link convert in CSV format | No Command | Using Publish to the web option got the Spreadsheet link in CSV format | After using Publish to the web option in Spreadsheet succesully got the link of Spreadsheet in csv format  | **Passed** | Testing has been passed |
+| **1** | First, we converted the link of the spreadsheet to the csv format | No Command |After that, We went to publish to the web option then change the spreadsheet link in csv format | After using Publish to the web option in Spreadsheet succesully got the link of Spreadsheet in csv format  | **Passed** | Testing has been passed |
 | **2** | Spreadsheet Downoad | wget -q url of Spreadsheet | Using wget command  Spreadsheet successfully  download in csv format. | After using wget command Spreadsheet succefully download in csv format.  | **Passed** | Testing has been passed |
 | **3** | Rename the download file | mv "pub?output=csv" output1.csv | Using mv command  downloaded file successfully  rename. | After using mv command  downloaded file succefully rename.  | **Passed** | Testing has been passed |
 | **4** | Get the output in NAME,AVRAGE and SUM | AWK command | Using awk command got the result in te form in NAME, AVERAGE and SUM | after Using awk command successfully  got the result in te form in NAME, AVERAGE and SUM |  **Passed** | Testing has been passed |
