@@ -104,6 +104,7 @@ BEGIN {printf "%-15s %9s %5s\n" , "Name", "Average", "SUM" }
 NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my11.csv
 
 #This script for second spread sheet
+
 rm -rf my25.csv
 
 echo "self evaluation and other evaluation on the basis of md file."
