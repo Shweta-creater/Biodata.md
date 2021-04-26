@@ -37,7 +37,7 @@
 | **3** | Rename the download file | mv "pub?output=csv" output1.csv | Using mv command  downloaded file successfully  rename. | After using mv command download file was successfully renamed.  | **Passed** | Testing has been passed |
 | **4** | Get the output in NAME,AVRAGE and SUM | AWK command | Using awk command got the result of three columns NAME, AVERAGE and SUM | After using awk command, we got the result of 3 columns.Name,average,Sum |  **Passed** | Testing has been passed |
 | **5** |After add any column in Spreadsheet  | No command | Using insert option added  any column in spreadsheet got the update result and added column is showing in csv file.| After that when we used inset option, we added any column in the spreadsheet, so we got the result of the update column and added column is showing in csv file.|  **Passed** | Testing has been passed |
-| **6** |After add any ROW in Spreadsheet  | No command | Using insert option added the any ROW in spreadsheet got the update result and added ROW is showing in csv file.| After that when we used the insert option,we added a column in the spreadsheet,so we got the result of the update row.and added ROW is showing in csv file.|  **Passed** | Testing has been passed |
+| **6** |After add any ROW in Spreadsheet  | No command | Using insert option added any ROW in spreadsheet got the update result and added ROW is showing in csv file.| After that when we used the insert option,we added any row in the spreadsheet,so we got the result of the update row.and added ROW is showing in csv file.|  **Passed** | Testing has been passed |
   
   </details>
   
