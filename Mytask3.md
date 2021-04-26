@@ -92,6 +92,7 @@ AWK=/usr/bin/awk
 rm -rf my11.csv
 
 echo "self evaluation and other evaluation on the basis of previous performance."
+
 wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vQjSvAMnKpqXy4p1ZCwoBl3OT4YAC3V8p-YKnciBTuPg-GDlVTJkCRNxYQqG_V99d7r6qTYL8OVrW2E/pub?output=csv
 
 #Here the mv command is used to rename the csv file.
