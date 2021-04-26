@@ -74,7 +74,6 @@ AWK=/usr/bin/awk
 #Discription : 1-This script has been used to download 2 google spread sheets.
 #            : 2-Both of those Google sheets will have the format csv file.
 #	           : 3-All the columns of the entire csv file will not be printed in the output.
-#!/bin/bash
 #	           : 4-Only the name, Average and sum columns and their values should be printed
 #Author      : Shweta Mishra
 #Date        : 20-04-2021
@@ -108,18 +107,21 @@ NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my11.csv
 rm -rf my25.csv
 
 echo "self evaluation and other evaluation on the basis of md file."
+
 wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
 #Here the mv command is used to rename the csv file.
 
 mv "pub?output=csv" my25.csv
+
 #Here awk command is used to print the Name, Average and Sum columns and its value.
  
 awk -F"," '
+
 BEGIN {printf "%-15s %9s %5s\n" , "Name", "Average", "SUM" }
+
 NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my25.csv
 
 
-  
   </details>
   
   <details>
