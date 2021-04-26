@@ -131,51 +131,93 @@ NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my25.csv
  self evaluation and other evaluation on the basis of previous performance.
  
 Name              Average   SUM
+
 Hinamshu Pundir   3         30
+
 Habib Ali         4         33
+
 Anil Sharma       4         35
+
 Sonu Singh        4         35
+
 Ranveer Singh     4         35
+
 Somesh Kumar      4         36
+
 Harsh kumar       4         34
+
 SK Sahjahan       4         37
+
 Harikesh          4         33
+
 Hinamshu Pundir   3         31
+
 Dharamveer        4         37
+
 Rishabh           4         38
+
 Pravesh Singh     3         26
+
 Aman Jha          4         33
+
 Pawan Kumar       4         37
+
 Tarun Kumar       3         28
+
 Bittu(OPJ)        3         29
+
 Aayon Mukherjee   4         34
+
 Vaibhav Vats      4         38
+
 Shweta Mishra     4         34
+
 Amandeep          3         30
  
 self evaluation and other evaluation on the basis of md file.
 
 Name              Average   SUM
+
 Hinamshu Pundir   3         30
+
 Habib Ali         4         33
+
 Anil Sharma       4         35
+
 Sonu Singh        4         35
+
 Ranveer Singh     4         35
+
 Somesh Kumar      4         36
+
 Harsh kumar       4         34
+
 SK Sahjahan       4         37
+
 Harikesh          4         33
+
 Hinamshu Pundir   3         31
+
 Dharamveer        4         37
+
 Rishabh           4         38
+
 Pravesh Singh     3         26
+
 Aman Jha          4         33
+
 Pawan Kumar       4         37
+
 Tarun Kumar       3         28
+
 Bittu(OPJ)        3         29
+
 Aayon Mukherjee   4         34
+
 Vaibhav Vats      4         38
+
 Shweta Mishra     4         34
+
 Amandeep          3         30
 
  
