@@ -56,6 +56,58 @@ after that i used awk command to get the required output.
   
   <details>
   <summary> Script </summary>
+ #!/bin/bash
+ECHO=/usr/bin/echo
+WGET=/usr/bin/wget
+MV=/usr/bin/mv
+RM=/usr/bin/rm
+AWK=/usr/bin/awk
+#################################################################################################################################
+#Script Name : script task
+#Discription : 1-This script has been used to download 2 google spread sheets.
+#            : 2-Both of those Google sheets will have the format csv file.
+#	     : 3-All the columns of the entire csv file will not be printed in the output.
+#!/bin/bash
+#	     : 4-Only the name, Average and sum columns and their values should be printed
+#Author      : Shweta Mishra
+#Date        : 20-04-2021
+#################################################################################################################################
+#This script for Self & other evaluation sheet-1
+# Here rm command is used if csv file already exits then delete it.
+# wget command is used to download the csv file .
+# echo command is used to print  the message.
+
+# if file already exits then delete it
+
+rm -rf my11.csv
+
+echo "self evaluation and other evaluation on the basis of previous performance."
+wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vQjSvAMnKpqXy4p1ZCwoBl3OT4YAC3V8p-YKnciBTuPg-GDlVTJkCRNxYQqG_V99d7r6qTYL8OVrW2E/pub?output=csv
+
+#Here the mv command is used to rename the csv file.
+
+mv "pub?output=csv" my11.csv
+#Here awk command is used to print the Name, Average and Sum columns and its value.
+ 
+awk -F"," '
+BEGIN {printf "%-15s %9s %5s\n" , "Name", "Average", "SUM" }
+NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my11.csv
+
+#This script for second spread sheet
+rm -rf my25.csv
+
+echo "self evaluation and other evaluation on the basis of md file."
+wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
+#Here the mv command is used to rename the csv file.
+
+mv "pub?output=csv" my25.csv
+#Here awk command is used to print the Name, Average and Sum columns and its value.
+ 
+awk -F"," '
+BEGIN {printf "%-15s %9s %5s\n" , "Name", "Average", "SUM" }
+NR==4,NR==25{printf "%-15s %3d %10d\n", $2, $11, $11*8}'  /root/my25.csv
+
+
   
   </details>
   
