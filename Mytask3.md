@@ -14,8 +14,7 @@
   
 </details>
 
-<details>
-<summary> INDEX </summary>
+# Index
   
   
    1- Test cases
