@@ -237,13 +237,13 @@ f11=$((d11+e11))
 #$ECHO "commas after adding 1 in average $f1"
 
 #======================================================================================================================================#
-# sum  is used to store the value of total no of commas in row of specific name
+#sum  is used to store the value of total no of commas in row of specific name
 
 sum=`$CAT $NEWFILENAME2 |$GREP $GREPOPT1 $COLUMNFORPUNCTUALITY | $TR $TROPT1 , | $WC $WCOPT1`
 
 #$ECHO "$(date) $PWD [value of total no of commas in a row] $sum" >> "$LOG" #storing logs in the specified file
 
-# total is used to store the value of total commas minus 2 commas
+#total is used to store the value of total commas minus 2 commas
 
 minus=2
 
