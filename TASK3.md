@@ -371,17 +371,67 @@ log=/home/shweta/task3/file.log
 
 <details>
 <summary> Log file </summary>
-  </details>
-  <details>
-  <summary> Download files link</summary>
-  URL111=https://docs.google.com/spreadsheets/d/e/2PACX-1vQjSvAMnKpqXy4p1ZCwoBl3OT4YAC3V8p-YKnciBTuPg-GDlVTJkCRNxYQqG_V99d7r6qTYL8OVrW2E/pub?output=csv
   
+  ==================My first sheet output===================
+Tuesday 04 May 2021 11:33:08 AM IST  [mv command] download sheet1 csv file using mv command /usr/bin/mv  
+
+Tuesday 04 May 2021 11:33:08 AM IST  [count comma for intername] download sheet1 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:08 AM IST  [add 1 for intername] download sheet1 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:08 AM IST  [total commas for intername] download sheet1 csv file using this command 2
+
+Tuesday 04 May 2021 11:33:08 AM IST  [count comma for Average] download sheet1 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:08 AM IST  [add 1 for Average] download sheet1 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:08 AM IST  [total commas for Average ] download sheet1 csv file using this command 2
+
+Tuesday 04 May 2021 11:33:08 AM IST [output for sheet 1] successfully print sheet1 the required output
+
+==================My second sheet output===================
+
+Tuesday 04 May 2021 11:33:10 AM IST  [wget command] download sheet2 csv file using wget command /usr/bin/wget option1 
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
+
+Tuesday 04 May 2021 11:33:10 AM IST  [mv command] download sheet2 csv file using mv command /usr/bin/mv /home/shweta/my_presentation
+/pub?output=csv /home/shweta/my_presentation/result2222.csv
+
+Tuesday 04 May 2021 11:33:10 AM IST  [count comma for intername] download sheet2 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:10 AM IST  [add 1 for intername] download sheet1 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:10 AM IST  [total commas for intername] download sheet2 csv file using this command 2
+
+Tuesday 04 May 2021 11:33:10 AM IST  [count comma for Average] download sheet2 csv file using this command 11
+
+Tuesday 04 May 2021 11:33:10 AM IST  [add 1 for Average] download sheet2 csv file using this command 1
+
+Tuesday 04 May 2021 11:33:10 AM IST  [total commas for Average ] download sheet2 csv file using this command 12
+
+Tuesday 04 May 2021 11:33:10 AM IST [outputfor sheet 2] successfully print the required output
+
+  
+  </details>
+
+<details>
+
+<summary> Download files link</summary>
+
+URL111=https://docs.google.com/spreadsheets/d/e/2PACX-1vQjSvAMnKpqXy4p1ZCwoBl3OT4YAC3V8p-YKnciBTuPg-GDlVTJkCRNxYQqG_V99d7r6qTYL8OVrW2E/pub?output=csv
+  
+
 #URL222=https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
-  </details>
-  <details>
-   <summary> Conclusion</summary>
+
+</details>
+
+<details>
+
+<summary> Conclusion</summary>
   I want to share this when i worked in this script.So i got to learn many new things and this script was working right
-  </details>
+
+</details>
   
   ```
      Thank You
