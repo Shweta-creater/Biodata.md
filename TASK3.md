@@ -63,10 +63,10 @@ Then I got the required output from awk command.
 <details>
   <summary> Log file </summary>
   </details>
-  details>
+  <details>
   <summary> Log file </summary>
   </details>
-  details>
+  <details>
   <summary> Log file </summary>
   </details>
   
