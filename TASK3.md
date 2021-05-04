@@ -57,26 +57,41 @@ Then I got the required output from awk command.
   <summary> Script </summary>
   !/bin/bash
 #Here the exact column Intern Name is found.
+  
 #Here $CAT is used to show the contents of a file.
+
 #GREP is used to find the row with a specific name.
+
 #-i is used to find letters whether the letter is in upercase or in lowercase.
+
 #Here tr command is used to translate and delete characters.
+
 #Here wc -c command is used to count commas.
+
 #Here wget command is used to download spreadsheet 1 with the help of url
+
 #Here mv command is used to rename the file
+
 #Here the exact column Average is found.
+
 #Here $CAT is used to show the contents of a file.
+
 #GREP is used to find the row with a specific name.
+
 #-i is used to find letters whether the letter is in upercase or in lowercase.
+
 #Here tr command is used to translate and delete characters.
+
 #Here wc -c command is used to count commas.
-#c1 is used to get the exact column no.
-#e1 is used to add 1 to the total number of commas.
+
 #Here $ cat is used to show the contents of a file.
+
 #$TAIL -n + 4 is used to not show the beginning 4 line of the file.
+
 #$AWK is used to extract the required column and print the Name Sum and Average.
 
 name=shweta
+
 source /home/shweta/task3/script3.conf
 
 if [ $URL111 = $name ]
@@ -113,37 +128,57 @@ c1=$((a1+b1))
 
 
 #$ECHO "commas after adding 1 in intern name $c1"
+
 #The below command shows the total number of commas.
+
 #d1=$($CAT $NEWFILENAME1 | $GREP -i  average | $AWK -F "Average" '{print $1}'|$TR -cd , | $WC -c)
+
 d1=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $COLUMNFORAVERAGE | $AWK $AWKOPT1 "$COLUMNFORAVERAGE" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
+
 #$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
 
 e1=1
+
 #$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
 
      f1=$((d1+e1))
+
 #$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
+
 #============================================================================================================================
+
 # sum  is used to store the value of total no of commas in row of specific name
 
 sum=`$CAT $NEWFILENAME1 |$GREP $GREPOPT1 $COLUMNFORPUNCTUALITY | $TR $TROPT1 , | $WC $WCOPT1`
+
 #$ECHO "$(date) $PWD [value of total no of commas in a row] $sum" >> "$LOG" #storing logs in the specified file
+
 # total is used to store the value of total commas minus 2 commas
+
 minus=2
+
 TOTAL=`expr $sum - $minus`
+
 $ECHO "multiply value $TOTAL"
 
 
 #$ECHO "commas after adding 1 in average $f1"
 #=======================================================================================================================================#
 
-#cat result99.csv | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*8 "\n", "Avg : ",$average1, "\n"}' name1=$c1 average1=$f1 x=$valxue1
-$CAT $NEWFILENAME1 | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*x "\n", "Avg : ",$average1, "\n"}' name1=$c1 average1=$f1 x=$TOTAL
+
+#cat result99.csv | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*8 "\n", "Avg : ",$average1, "\n"}' 
+
+name1=$c1 average1=$f1 x=$valxue1
+
+$CAT $NEWFILENAME1 | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*x "\n", "Avg : ",$average1, "\n"}' 
+
+name1=$c1 average1=$f1 x=$TOTAL
 
 #$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
 
 
 fi
+
 ###############################################################################################
 
 if [ $URL222 = $name ]
@@ -166,11 +201,14 @@ $MV $OLDFILENAME2 $NEWFILENAME2
 
 
 #a1=$($CAT $NEWFILENAME2 | $GREP -i  NAME | $AWK -F "Intern Name" '{print $1}' | $TR -cd , | $WC -c)
+
 a11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $COLUMNFORNAME | $AWK $AWKOPT1 "$COLUMNFORINTERNNAME" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
+
 #$ECHO "$(date) $pwd [count comma for intername] download sheet1 csv file using this command $a1" >> "$log"
 
 
 b11=1
+
 #$ECHO "$(date) $pwd [add 1 for intername] download sheet1 csv file using this command $b1" >> "$log"
 
 c11=$((a11+b11))
@@ -181,12 +219,17 @@ c11=$((a11+b11))
 #$ECHO "commas after adding 1 in intern name $c1"
 
 #d1=$($CAT $NEWFILENAME1 | $GREP -i  average | $AWK -F "Average" '{print $1}'|$TR -cd , | $WC -c)
+
 d11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $COLUMNFORAVERAGE | $AWK $AWKOPT1 "$COLUMNFORAVERAGE" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
+
 #$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
 
 e11=1
+
 #$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
+
 f11=$((d11+e11))
+
 #$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
 
 
@@ -197,15 +240,21 @@ f11=$((d11+e11))
 # sum  is used to store the value of total no of commas in row of specific name
 
 sum=`$CAT $NEWFILENAME2 |$GREP $GREPOPT1 $COLUMNFORPUNCTUALITY | $TR $TROPT1 , | $WC $WCOPT1`
+
 #$ECHO "$(date) $PWD [value of total no of commas in a row] $sum" >> "$LOG" #storing logs in the specified file
+
 # total is used to store the value of total commas minus 2 commas
+
 minus=2
+
 TOTAL1=`expr $sum - $minus`
+
 $ECHO "multiply value $TOTAL1"
 
 #=======================================================================================================================================#
 
 #cat result99.csv | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*8 "\n", "Avg : ",$average1, "\n"}' name1=$c1 average1=$f1 x=$valxue1
+
 $CAT $NEWFILENAME2 | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*y "\n", "Avg : ",$average1, "\n"}' name1=$c11 average1=$f11 y=$TOTAL1
 
 #$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
@@ -217,67 +266,111 @@ fi
   
  <details>
   <summary> Configuration file </summary>
-  configuration file 
+  
+configuration file 
 
 MV=/usr/bin/mv
+
 CP=/usr/bin/cat
+
 WGET=/usr/bin/wget
+
 CAT=/usr/bin/cat
+
 AWK=/usr/bin/awk
+
 TAIL=/usr/bin/tail
+
 TR=/usr/bin/tr
+
 WC=/usr/bin/wc
+
 GREP=/usr/bin/grep
+
 ECHO=/usr/bin/echo
 
 #wget command is a Linux command line utility that helps us to download the files from the web.
+
 #echo command in linux is used to display line of text/stringon terminal.
+
 #mv command renames a file or folder and moves a group of files to a different directory
+
 #cat command allows us to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
+
 #awk command searches files for text containing a pattern. When a line or text matches, awk performs a specific action on that line/text.
+
 #tail commandprint the last N number of data of the given input.
+
 #tr is a command for translating or deleting characters.
+
 #The grep command in unix or linux system is used to print the lines that match a given pattern.
+
 #wc Command in Linux Count Number of Lines, Words, and Character.
+
 #pwd command prints the path of the working directory
+
 #cp command is used to copy files or group of files or directory.
+
 #date command is used to display the system date and time.
+
 #wget command option
+
 #The download output is not visible so -q is used
+
 #tr command option
+
 #-cd option used for delete the character.
+
 #wc command option
+
 #-c is used ko count the character
+
 #grep command option
+
 #-i option used for displays both uppercase and lowercase results.
+
 #awk command option
+
 #-F used for the input field separator.
                                                                                                                             1,1           
 URL111=https://docs.google.com/spreadsheets/d/e/2PACX-1vQjSvAMnKpqXy4p1ZCwoBl3OT4YAC3V8p-YKnciBTuPg-GDlVTJkCRNxYQqG_V99d7r6qTYL8OVrW2E/pub?output=csv
 
-#URL222=https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
 URL222=https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
 
 WGETOPT1=-q
+
 GREPOPT1=-i
+
 AWKOPT1=-F
+
 TROPT1=-cd
+
 WCOPT1=-c
+
 OLDFILENAME1=/home/shweta/task3/"pub?output=csv"
+
 NEWFILENAME1=/home/shweta/task3/sheet1.csv
 
 OLDFILENAME2=/home/shweta/task3/"pub?output=csv"
+
 NEWFILENAME2=/home/shweta/task3/sheet2.csv
 
 COLUMNFORNAME=name
+
 COLUMNFORINTERNNAME=Intern
+
 COLUMNFORAVERAGE=Average
+
 COLUMNFORPUNCTUALITY=punctuality
+
 #this is the path of log file
+
 log=/home/shweta/task3/file.log
+  
   </details>
+
 <details>
-  <summary> Log file </summary>
+<summary> Log file </summary>
   </details>
   <details>
   <summary> Download files link</summary>
