@@ -21,8 +21,8 @@
     <li> Script </li>
     <li> Configuration File </li>
     <li> Log file </li>
-    <li> Conclusion  </li>
-    <li> download files links </li>
+    <li> download files link  </li>
+    <li> Conclusion </li>
   </ul>
   </details>
 
