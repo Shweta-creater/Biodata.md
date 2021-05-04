@@ -37,7 +37,7 @@
 |4|**Rename downloaded file**|I rename the file   by using mv command  <br/> I used this $MV $OLDFILENAME1 $NEWFILENAME1  the value of these variable extracted from the configuration file |Files should be renamed|**PASS**
 |5 |**Rename downloaded file** |I rename the file by using mv command  <br/> I used this $MV $OLDFILENAME2 $NEWFILENAME2 the value of these variable extracted from the configuration file |Files should be renamed|**PASS** 
 |6 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* m "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** | ![output](https://user-images.githubusercontent.com/82143335/117057924-a6ea9800-ad3b-11eb-8577-5bfdddeadd6a.PNG) |
-|7 |**Adding the column at the top of the spreadsheet** |When i add add a column from the top to my google spreadsheet,it shows in the csv file |**PASS** | |
+|7 |**Adding the column at the top of the spreadsheet** |When i add add a column from the top to my google spreadsheet,it shows in the csv file |--|**PASS**|--|
 |8 |**On updating a value below in the spreadsheet** |When i add a value from below in the spreadsheet,it shows in my output. |Output should be updated |**PASS** | |
 |9 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass** |![log](https://user-images.githubusercontent.com/82143335/117058350-25473a00-ad3c-11eb-97a4-e4acc19efe6b.PNG)|
 
