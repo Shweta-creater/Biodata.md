@@ -56,3 +56,17 @@ Then I got the required output from awk command.
   <details>
   <summary> Script </summary>
   </details>
+  
+ <details>
+  <summary> Configuration file </summary>
+  </details>
+<details>
+  <summary> Log file </summary>
+  </details>
+  details>
+  <summary> Log file </summary>
+  </details>
+  details>
+  <summary> Log file </summary>
+  </details>
+  
