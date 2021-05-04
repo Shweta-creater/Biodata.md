@@ -220,23 +220,14 @@ fi
   configuration file 
 
 MV=/usr/bin/mv
-
 CP=/usr/bin/cat
-
 WGET=/usr/bin/wget
-
 CAT=/usr/bin/cat
-
 AWK=/usr/bin/awk
-
 TAIL=/usr/bin/tail
-
 TR=/usr/bin/tr
-
 WC=/usr/bin/wc
-
 GREP=/usr/bin/grep
-
 ECHO=/usr/bin/echo
 
 #wget command is a Linux command line utility that helps us to download the files from the web.
