@@ -107,24 +107,28 @@ echo "==================My first sheet output==================="
 
         $WGET $WGETOPT1 $URL111
 
-#$ECHO "$(date) $pwd [wget command] download sheet1 csv file using wget command $WGET $OPTION1 $URL111" >> "$log"
+$ECHO "$(date) $pwd [wget command] download sheet1 csv file using wget command $WGET $OPTION1 $URL111" >> "$log"
 
 $MV $OLDFILENAME1 $NEWFILENAME1
 
-#$ECHO "$(date) $pwd [mv command] download sheet1 csv file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"
+$ECHO "$(date) $pwd [mv command] download sheet1 csv file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"
 
-#The below command shows the total number of commas.
+The below command shows the total number of commas.
+
 #a1=$($CAT $NEWFILENAME1 | $GREP -i  NAME | $AWK -F "Intern Name" '{print $1}' | $TR -cd , | $WC -c)
+
 a1=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $COLUMNFORNAME | $AWK $AWKOPT1 "$COLUMNFORINTERNNAME" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
-#$ECHO "$(date) $pwd [count comma for intername] download sheet1 csv file using this command $a1" >> "$log"
+
+$ECHO "$(date) $pwd [count comma for intername] download sheet1 csv file using this command $a1" >> "$log"
 
 
 b1=1
-#$ECHO "$(date) $pwd [add 1 for intername] download sheet1 csv file using this command $b1" >> "$log"
+
+$ECHO "$(date) $pwd [add 1 for intername] download sheet1 csv file using this command $b1" >> "$log"
 
 c1=$((a1+b1))
 
-#$ECHO "$(date) $pwd [total commas for intername] download sheet1 csv file using this command $c1" >> "$log"
+$ECHO "$(date) $pwd [total commas for intername] download sheet1 csv file using this command $c1" >> "$log"
 
 
 #$ECHO "commas after adding 1 in intern name $c1"
@@ -135,15 +139,15 @@ c1=$((a1+b1))
 
 d1=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $COLUMNFORAVERAGE | $AWK $AWKOPT1 "$COLUMNFORAVERAGE" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
 
-#$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
+$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
 
 e1=1
 
-#$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
+$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
 
      f1=$((d1+e1))
 
-#$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
+$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
 
 #============================================================================================================================
 
@@ -174,7 +178,7 @@ $CAT $NEWFILENAME1 | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM
 
 name1=$c1 average1=$f1 x=$TOTAL
 
-#$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
+$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
 
 
 fi
@@ -193,27 +197,27 @@ else
 
 $WGET $WGETOPT1 $URL222
 
-#$ECHO "$(date) $pwd [wget command] download sheet1 csv file using wget command $WGET $OPTION1 $URL111" >> "$log"
+$ECHO "$(date) $pwd [wget command] download sheet1 csv file using wget command $WGET $OPTION1 $URL111" >> "$log"
 
 $MV $OLDFILENAME2 $NEWFILENAME2
 
-#$ECHO "$(date) $pwd [mv command] download sheet1 csv file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"
+$ECHO "$(date) $pwd [mv command] download sheet1 csv file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"
 
 
 #a1=$($CAT $NEWFILENAME2 | $GREP -i  NAME | $AWK -F "Intern Name" '{print $1}' | $TR -cd , | $WC -c)
 
 a11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $COLUMNFORNAME | $AWK $AWKOPT1 "$COLUMNFORINTERNNAME" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
 
-#$ECHO "$(date) $pwd [count comma for intername] download sheet1 csv file using this command $a1" >> "$log"
+$ECHO "$(date) $pwd [count comma for intername] download sheet1 csv file using this command $a1" >> "$log"
 
 
 b11=1
 
-#$ECHO "$(date) $pwd [add 1 for intername] download sheet1 csv file using this command $b1" >> "$log"
+$ECHO "$(date) $pwd [add 1 for intername] download sheet1 csv file using this command $b1" >> "$log"
 
 c11=$((a11+b11))
 
-#$ECHO "$(date) $pwd [total commas for intername] download sheet1 csv file using this command $c1" >> "$log"
+$ECHO "$(date) $pwd [total commas for intername] download sheet1 csv file using this command $c1" >> "$log"
 
 
 #$ECHO "commas after adding 1 in intern name $c1"
@@ -222,15 +226,15 @@ c11=$((a11+b11))
 
 d11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $COLUMNFORAVERAGE | $AWK $AWKOPT1 "$COLUMNFORAVERAGE" '{print $1}' | $TR $TROPT1 , | $WC $WCOPT1)
 
-#$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
+$ECHO "$(date) $pwd [count comma for Average] download sheet1 csv file using this command $a1" >> "$log"
 
 e11=1
 
-#$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
+$ECHO "$(date) $pwd [add 1 for Average] download sheet1 csv file using this command $b1" >> "$log"
 
 f11=$((d11+e11))
 
-#$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
+$ECHO "$(date) $pwd [total commas for Average ] download sheet1 csv file using this command $c1" >> "$log"
 
 
 
@@ -257,7 +261,7 @@ $ECHO "multiply value $TOTAL1"
 
 $CAT $NEWFILENAME2 | tail -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*y "\n", "Avg : ",$average1, "\n"}' name1=$c11 average1=$f11 y=$TOTAL1
 
-#$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
+$ECHO "$(date) $pwd"[output for sheet 1] successfully print sheet1 the required output >> "$log"
 
 
 fi
