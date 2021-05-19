@@ -26,7 +26,7 @@ Take a look in some data projects which have already been making the world a bet
 - 👩‍💻 Programming Languages
   
     ![Bash](https://img.shields.io/badge/-Shell_Script-05122A?style=flat&logo=gnu-bash)&nbsp;
-    ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor)&nbsp
+    ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor)&nbsp;
     ![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)&nbsp;
     ![C](https://img.shields.io/badge/-C%23%20-05122A?style=flat&logo=c-sharp)&nbsp;
 - ☁️ Cloud
