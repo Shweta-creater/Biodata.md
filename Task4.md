@@ -44,7 +44,7 @@
   
   </details>
     <details>
-      <summary> Script </script>
+      <summary> Script </summary>
     </details>
     
   </ul>
