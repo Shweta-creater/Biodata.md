@@ -47,7 +47,10 @@
       <summary> Script </summary>
     </details>
     <details>
-      <summary> Implimentation </summary>
+      <summary> Implementation </summary>
+    </details>
+    <details>
+      <summary> Conclusion </summary>
     </details>
     
   </ul>
