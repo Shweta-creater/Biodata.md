@@ -9,6 +9,7 @@
     <li> This script has been used to download 2 google sheets. </li>
     <li> Both of those Google sheets will have the formate csv file. </li>
     <li> Only the name, Average and Sum columns and their values should be printed. </li>
+     <li>After that we get the downloaded seat compaired from our existing seat.</li>
   </ul>
 </details>
 
