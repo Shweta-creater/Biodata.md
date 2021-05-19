@@ -25,11 +25,8 @@ Take a look in some data projects which have already been making the world a bet
 ## 🛠️Tech Stack
 - 👩‍💻 Programming Languages
   
-    ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
     ![Bash](https://img.shields.io/badge/-Shell_Script-05122A?style=flat&logo=gnu-bash)&nbsp;
-    ![Scala](https://img.shields.io/badge/-Scala-05122A?style=flat&logo=Scala&logoColor=DC143C)&nbsp;
-    ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor)&nbsp;
-    ![Perl](https://img.shields.io/badge/-Perl-05122A?style=flat&logo=Perl&logoColor=FFA518)&nbsp;
+    ![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor)&nbsp
     ![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)&nbsp;
     ![C](https://img.shields.io/badge/-C%23%20-05122A?style=flat&logo=c-sharp)&nbsp;
 - ☁️ Cloud
