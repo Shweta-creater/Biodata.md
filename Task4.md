@@ -43,10 +43,9 @@
 |3|**Adding row* |Comparing outputs after adding an extra row |Match of both the files|**PASS** |
 |4|**The path of commands  is declared in Variable** |I declared the path of commands in variables in the configuration file which i used in my script file. |Path of command should be declare in the variable |**PASS**|
 |5|**Google spread sheet downloaded in CSV format** |I used wget with -q option with url of the google spread sheet to download in csv format -q option is used for silently downloaded <br/> I used this $WGET $WGETOPT1 $MYURL111 and $MYURL222 the value of these variable extracting from the configuration file |Google spreadsheet in csv format should be downloaded |**PASS** |
-|4|**Rename downloaded file**|I rename the file   by using mv command  <br/> I used this $MV $OLDFILENAME1 $NEWFILENAME1  the value of these variable extracted from the configuration file |Files should be renamed|**PASS**
-|5 |**Rename downloaded file** |I rename the file by using mv command  <br/> I used this $MV $OLDFILENAME2 $NEWFILENAME2 the value of these variable extracted from the configuration file |Files should be renamed|**PASS** 
-|6 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* m "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** |
-|9 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass**|
+|6|**Rename downloaded file**|I rename the file   by using mv command  <br/> I used this $MV $OLDFILENAME1 $NEWFILENAME1  the value of these variable extracted from the configuration file |Files should be renamed|**PASS**
+|7 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* m "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** |
+|8 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass**|
  
   </details>
     <details>
