@@ -33,7 +33,7 @@
 <details>
   <summary> Test Cases </summary>
   
-|S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
+|S.NO|Test Cases|Test Case Description|Expected Result|Test Status
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
 |1|**Published Url** |First of all, i used publish to the web option to publish a spreadsheet link and select the .csv format |Url should be published|**PASS** |
 |2|**The path of commands  is declared in Variable** |I declared the path of commands in variables in the configuration file which i used in my script file. |Path of command should be declare in the variable |**PASS**|
