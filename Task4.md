@@ -2,7 +2,7 @@
 
 <h2 align="center"> OBJECTIVE: </h2>
 
- Create a test script that checks the reliability of the evaluation script.
+ <p align="center">   Create a test script that checks the reliability of the evaluation script. <p>
 
 
 <details>
