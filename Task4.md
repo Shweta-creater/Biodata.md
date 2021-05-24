@@ -35,15 +35,15 @@
   
 |S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
 |:----:|:-----:|:-----:|:-----:|:-----:|:----:|
-|1|**Published Url** |First of all, i used publish to the web option to publish a spreadsheet link and select the .csv format |Url should be published|**PASS** |![webpubleshed](https://user-images.githubusercontent.com/82143335/117056330-d26c8300-ad39-11eb-8232-a9609f1167f8.PNG)|
-|2|**The path of commands  is declared in Variable** |I declared the path of commands in variables in the configuration file which i used in my script file. |Path of command should be declare in the variable |**PASS** |![variables](https://user-images.githubusercontent.com/82143335/117057021-95ed5700-ad3a-11eb-9253-faa5df8ca109.PNG)|
-|3|**Google spread sheet downloaded in CSV format** |I used wget with -q option with url of the google spread sheet to download in csv format -q option is used for silently downloaded <br/> I used this $WGET $WGETOPT1 $MYURL111 and $MYURL222 the value of these variable extracting from the configuration file |Google spreadsheet in csv format should be downloaded |**PASS** | ![csv formate](https://user-images.githubusercontent.com/82143335/117057486-24fa6f00-ad3b-11eb-8236-6796b3b96303.PNG) |
+|1|**Published Url** |First of all, i used publish to the web option to publish a spreadsheet link and select the .csv format |Url should be published|**PASS** |
+|2|**The path of commands  is declared in Variable** |I declared the path of commands in variables in the configuration file which i used in my script file. |Path of command should be declare in the variable |**PASS**|
+|3|**Google spread sheet downloaded in CSV format** |I used wget with -q option with url of the google spread sheet to download in csv format -q option is used for silently downloaded <br/> I used this $WGET $WGETOPT1 $MYURL111 and $MYURL222 the value of these variable extracting from the configuration file |Google spreadsheet in csv format should be downloaded |**PASS** |
 |4|**Rename downloaded file**|I rename the file   by using mv command  <br/> I used this $MV $OLDFILENAME1 $NEWFILENAME1  the value of these variable extracted from the configuration file |Files should be renamed|**PASS**
 |5 |**Rename downloaded file** |I rename the file by using mv command  <br/> I used this $MV $OLDFILENAME2 $NEWFILENAME2 the value of these variable extracted from the configuration file |Files should be renamed|**PASS** 
-|6 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* m "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** | ![output](https://user-images.githubusercontent.com/82143335/117057924-a6ea9800-ad3b-11eb-8577-5bfdddeadd6a.PNG) |
+|6 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* m "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** |
 |7 |**Adding the column at the top of the spreadsheet** |When i add add a column from the top to my google spreadsheet,it shows in the csv file |--|**PASS**|--|
 |8 |**On updating a value below in the spreadsheet** |When i add a value from below in the spreadsheet,it shows in my output. |Output should be updated |**PASS** | |
-|9 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass** |![log](https://user-images.githubusercontent.com/82143335/117058350-25473a00-ad3c-11eb-97a4-e4acc19efe6b.PNG)|
+|9 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass**|
 
   
   </details>
