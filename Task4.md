@@ -54,6 +54,106 @@
     </details>
    <details>
    <summary> Configuration </summary>
+    #configuration file 
+
+MV=/usr/bin/mv
+CP=/usr/bin/cat
+WGET=/usr/bin/wget
+CAT=/usr/bin/cat
+AWK=/usr/bin/awk
+TAIL=/usr/bin/tail
+TR=/usr/bin/tr
+WC=/usr/bin/wc
+GREP=/usr/bin/grep
+ECHO=/usr/bin/echo
+DIFF=/usr/bin/diff
+
+#wget command is a Linux command line utility that helps us to download the files from the web.
+    
+#echo command in linux is used to display line of text/stringon terminal.
+    
+#mv command renames a file or folder and moves a group of files to a different directory
+
+#cat command allows us to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
+
+ #awk command searches files for text containing a pattern. When a line or text matches, awk performs a specific action on that line/text.
+#tail commandprint the last N number of data of the given input.
+  
+    
+#tr is a command for translating or deleting characters.
+    
+#The grep command in unix or linux system is used to print the lines that match a given pattern.
+    
+#wc Command in Linux Count Number of Lines, Words, and Character.
+    
+#pwd command prints the path of the working directory
+    
+#cp command is used to copy files or group of files or directory.
+#date command is used to display the system date and time.
+    
+#wget command option
+    
+#The download output is not visible so -q is used
+    
+#tr command option
+    
+#-cd option used for delete the character.
+    
+#wc command option
+    
+#-c is used ko count the character
+    
+#grep command option
+    
+#-i option used for displays both uppercase and lowercase results.
+
+#awk command option
+
+#-F used for the input field separator.
+
+    URL1=https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
+
+#URL222=https://docs.google.com/spreadsheets/d/e/2PACX-1vRpppfbIt8hE4xJYHJrvUFtDN22PotSOgvmKjYluc5sm97RBw6cOmuWSxpaiiiWp1pGthVTJqQ_egkE/pub?output=csv
+URL2=https://docs.google.com/spreadsheets/d/e/2PACX-1vQGXHMKyNswx1p927YNRP2_ypb8NduJbI9qbzvRoSsjVKJ914n_sqWyQ34gz2qHdWwNxKs84B6102vG/pub?output=csv
+
+
+#WGETOPT1=-q
+
+#GREPOPT1=-i
+    
+#AWKOPT1=-F
+    
+ #TROPT1=-cd
+#WCOPT1=-c
+    
+OLDFILENAME1=/home/shweta/task3/"pub?output=csv"
+    
+NEWFILENAME1=/home/shweta/task3/sheet1.csv
+
+OLDFILENAME2=/home/shweta/task3/"pub?output=csv.1"
+    
+NEWFILENAME2=/home/shweta/task3/sheet2.csv
+
+COLUMNFORNAME=name
+    
+COLUMNFORINTERNNAME=Intern
+    
+COLUMNFORAVERAGE=Average
+    
+COLUMNFORPUNCTUALITY=punctuality
+
+#this is the path of log file
+    
+log=/home/shweta/task3/file.log
+    
+COMPAIR_FILE1_PATH=/home/shweta/task3/Value/Sheet1
+    
+COMPAIR_FILE2_PATH=/home/shweta/task3/Value/Sheet2
+    
+CURRENT_FILE1_PATH=Output1
+    
+CURRENT_FILE2_PATH=Output2                                                                                                                            
+                
    </details>
     <details>
    <summary> log </summary>
