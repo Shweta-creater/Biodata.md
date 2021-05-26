@@ -51,8 +51,184 @@
   </details>
     <details>
       <summary> Script </summary>
+     #!/bin/bash
+name=shweta
+PWD=`/usr/bin/pwd`
+DATE=`/usr/bin/date`
+source /home/shweta/task3/script.conf
+
+
+
+if [ $URL1 = $name ]
+
+then
+
+$ECHO "This error for sheet 1"
+
+else
+
+#echo "==================My first sheet output=============="
+$WGET -q $URL1
+$ECHO "$(date) sheet1 downloaded succesfully" >> "$log"
+
+$MV $OLDFILENAME1 $NEWFILENAME1
+$ECHO "$(date) [mv command] It rename the downloaded file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log" #Collect logs
+     in log file
+
+
+a1=$($CAT $NEWFILENAME1 | $GREP -i $COLUMNFORNAME | $AWK -F "$COLUMNFORINTERNNAME" '{print $1}' | $TR -cd , | $WC -c)
+     
+$ECHO "$(date) [count commas] count the no of commas before the Intern name" >> "$log" #Collect logs in log file
+
+
+
+b1=1
+     
+$ECHO "$(date) [add 1 in the previous result of commas]" >> "$log" #Collect logs in log file
+
+
+
+c1=$((a1+b1))
+     
+$ECHO "$(date) [total commas for extract the Intern name column ]" >> "$log" #Collect logs in log file
+     
+     #$ECHO "commas after adding 1 in intern name $c1"
+
+d1=$($CAT $NEWFILENAME1 | $GREP -i $COLUMNFORAVERAGE | $AWK -F "$COLUMNFORAVERAGE" '{print $1}' | $TR -cd , | $WC -c)
+     
+$ECHO "$(date) [count commas] count the no of commas before the Average" >> "$log" #Collect logs in log file
+
+
+
+e1=1
+
+f1=$((d1+e1))
+     
+$ECHO "$(date) [commas for extract the average column]" >> "$log" #Collect logs in log file
+
+
+#============================================================================================================================
+# sum  is used to store the value of total no of commas in row of specific name
+
+sum=`$CAT $NEWFILENAME1 |$GREP -i $COLUMNFORPUNCTUALITY | $TR -cd , | $WC -c
+     `
+minus=2
+     
+TOTAL=`expr $sum - $minus`
+
+
+#$ECHO "commas after adding 1 in average $f1"
+#=======================================================================================================================================#
+
+$CAT $NEWFILENAME1 | grep ^[0-9] | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*x "\n", "Avg : ",$average1, "\n"}' name1=$c1 average1=$f1 x=$TOTAL > Output1
+
+
+fi
+
+###############################################################################################
+
+if [ $URL2 = $name ]
+
+then
+       $ECHO "This error for sheet 2"
+
+else
+
+#echo "==================My Second sheet output=================="
+     
+$WGET -q $URL2
+     
+$ECHO "$(date) sheet1 downloaded succesfully" >> "$log"
+
+
+$MV $OLDFILENAME1 $NEWFILENAME2
+     
+$ECHO "$(date) [mv command] It rename the downloaded file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log" #Collect logs in log file
+
+
+a11=$($CAT $NEWFILENAME2 | $GREP -i $COLUMNFORNAME | $AWK -F "$COLUMNFORINTERNNAME" '{print $1}' | $TR -cd , | $WC -c)
+     
+$ECHO "$(date) [count commas] count the no of commas before the Intern name" >> "$log" #Collect logs in log file
+
+
+
+b11=1
+     
+$ECHO "$(date) [add 1 in the previous result of commas]" >> "$log" #Collect logs in log file
+
+c11=$((a11+b11))
+     
+$ECHO "$(date) [total commas for extract the Intern name column ]" >> "$log" #Collect logs in log file
+
+d11=$($CAT $NEWFILENAME2 | $GREP -i $COLUMNFORAVERAGE | $AWK -F "$COLUMNFORAVERAGE" '{print $1}' | $TR -cd , | $WC -c)
+     
+$ECHO "$(date) [count commas] count the no of commas before the Average" >> "$log" #Collect logs in log file
+
+
+e11=1
+     
+f11=$((d11+e11))
+     
+$ECHO "$(date) [commas for extract the average column]" >> "$log" #Collect logs in log file
+
+#===================================================================================================================================#
+# sum  is used to store the value of total no of commas in row of specific name 
+     
+     sum=`$CAT $NEWFILENAME2 |$GREP -i $COLUMNFORPUNCTUALITY | $TR -cd , | $WC -c`
+minus=2
+     
+TOTAL1=`expr $sum - $minus`
+
+#=======================================================================================================================================#
+
+$CAT $NEWFILENAME2 | grep ^[0-9] | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*y "\n", "Avg : ",$average1, "\n"}' name1=$c11 average1=$f11 y=$TOTAL1 > Output2
+     
+$ECHO "$(date) [output for sheet 2] successfully print sheet1 the required output" >> "$log" #Collect logs in log file
+
+fi
+
+#-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+echo "==================My first sheet output===================" 
+
+#$DIFF -y /home/shweta/task3/Value/Sheet1 Output1
+     
+$DIFF -y $COMPAIR_FILE1_PATH $CURRENT_FILE1_PATH
+
+
+ if [[ $? -eq 0 ]];
+
+then
+
+ echo  "=============PASS MATCH FOUND==============="
+
+else
+
+echo "==============fail match not found============"
+
+fi
+
+echo "==================My Second sheet output===================" 
+
+#$DIFF -y /home/shweta/task3/Value/Sheet2 Output2
+     
+$DIFF -y $COMPAIR_FILE2_PATH $CURRENT_FILE2_PATH
+
+ if [[ $? -eq 0 ]];
+
+then
+
+ echo "pass match founnd"
+
+else
+
+echo "fail match not found"
+
+fi                                                                                                                                                                                                                                   
     </details>
-   <details>
+  <details>
    <summary> Configuration </summary>
     #configuration file 
 
