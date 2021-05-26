@@ -24,6 +24,7 @@
     <li> Test cases</li>
     <li> Implementation </li>
     <li> Script </li>
+   <li> Configuration </li>
     <li> Log file </li>
     <li> Conclusion </li>
   </ul>
