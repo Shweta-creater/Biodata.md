@@ -157,6 +157,61 @@ CURRENT_FILE2_PATH=Output2
    </details>
     <details>
    <summary> log </summary>
+     Wednesday 26 May 2021 12:15:06 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 12:15:06 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 12:15:06 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 12:15:06 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 12:15:06 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 12:16:48 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 12:16:48 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 12:16:48 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 12:16:48 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 12:16:48 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 12:16:48 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 12:16:48 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 12:16:48 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 12:52:20 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 12:52:20 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 12:52:21 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 12:52:21 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 12:52:21 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 12:52:21 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 12:52:21 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 12:52:21 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 12:52:31 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 12:52:31 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 12:52:31 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 12:52:31 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 12:52:31 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 12:52:31 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 12:52:31 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 12:52:31 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 12:54:25 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 12:54:25 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 12:54:25 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 12:54:25 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 12:54:25 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 12:54:25 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 12:54:25 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 12:54:25 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 06:54:54 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 06:54:54 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 06:54:54 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 06:54:54 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 06:54:54 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 06:54:54 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 06:54:54 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 06:54:54 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 07:08:27 AM IST sheet1 downloaded succesfully
+Wednesday 26 May 2021 07:08:27 AM IST [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/shweta/task3/pub?output=csv /home/shweta/task3/sheet1.csv
+Wednesday 26 May 2021 07:08:27 AM IST [count commas] count the no of commas before the Intern name
+Wednesday 26 May 2021 07:08:27 AM IST [add 1 in the previous result of commas]
+Wednesday 26 May 2021 07:08:27 AM IST [total commas for extract the Intern name column ]
+Wednesday 26 May 2021 07:08:27 AM IST [count commas] count the no of commas before the Average
+Wednesday 26 May 2021 07:08:27 AM IST [commas for extract the average column]
+Wednesday 26 May 2021 07:08:27 AM IST [output for sheet 1] successfully print sheet1 the required output
+Wednesday 26 May 2021 07:08:29 AM IST sheet1 downloaded succesfully
+
    </details>
     <details>
       <summary> Implementation </summary>
