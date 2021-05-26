@@ -52,8 +52,12 @@
     <details>
       <summary> Script </summary>
     </details>
+   <details>
    <summary> Configuration </summary>
+   </details>
+    <details>
    <summary> log </summary>
+   </details>
     <details>
       <summary> Implementation </summary>
       We already have an output and when running the script when the new output is downloaded, then compare to it.  What is the difference between the two and  then we tested our script successfully.
