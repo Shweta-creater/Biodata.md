@@ -25,7 +25,6 @@
     <li> Implementation </li>
     <li> Script </li>
     <li> Log file </li>
-    <li> download files link  </li>
     <li> Conclusion </li>
   </ul>
   </details>
